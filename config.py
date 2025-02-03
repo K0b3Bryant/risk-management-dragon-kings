@@ -25,3 +25,12 @@ ML_PARAMS = {
     "max_depth": 5,
     "random_state": 42
 }
+
+# LSTM Parameters
+LSTM_PARAMS = {
+    "sequence_length": 50,
+    "epochs": 20,
+    "batch_size": 16,
+    "units": 50,
+    "dropout": 0.2
+}
